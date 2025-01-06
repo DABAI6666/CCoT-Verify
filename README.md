@@ -7,17 +7,17 @@ pip install -r requirements.txt
 
 ## Dataset
 
-- MOCHEG: You can download dataset [here](https://docs.google.com/forms/d/e/1FAIpQLScAGehM6X9ARZWW3Fgt7fWMhc_Cec6iiAAN4Rn1BHAk6KOfbw/viewform).
+- MOCHEG: You can download dataset [here](Comply with anonymity rules, will be made public after acceptance)..
 
-    For more information on the dataset format and structure, please refer to their Please check their [official repository](https://github.com/VT-NLP/Mocheg).
-- Factify: The dataset can be downloaded [here](https://drive.google.com/drive/folders/1MPgUN6xAnocENZ5fefny3eGOnD7KPZ5M?usp=sharing).
+    For more information on the dataset format and structure, please refer to their Please check their [official repository](Comply with anonymity rules, will be made public after acceptance)..
+- Factify: The dataset can be downloaded [here](Comply with anonymity rules, will be made public after acceptance).
 
-    Additional details can be found on their [official website](https://competitions.codalab.org/competitions/35153).
+    Additional details can be found on their [official website](Comply with anonymity rules, will be made public after acceptance).
 
 - MultiVerify: New Dataset(./MultiVerify Dataset)
 
 ### Model CBART
-The default version of language model is [CBART](https://github.com/NLPCode/CBART).
+The default version of language model is [CBART](Comply with anonymity rules, will be made public after acceptance)..
 We provide the download link of pretrained CBART [link](Comply with anonymity rules, will be made public after acceptance).
 
 ## Evaluation

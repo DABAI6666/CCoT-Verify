@@ -1,5 +1,4 @@
 **Data Description** <br/>
-This dataset was originally published in the paper: [Paper](https://arxiv.org/abs/1909.03242). We proposed an algorithm and applied several preprocessing steps to adapt it for our experiments (see our paper for details).
 
 
 Summary of the MultiVerify dataset:
