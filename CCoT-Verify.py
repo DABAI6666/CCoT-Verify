@@ -107,14 +107,13 @@ class IRDataset(torch.utils.data.Dataset):
         return batchs_clear
 
 
-def get_prompt_multimodal(query, prompt, support_text, text_corpus):
+def get_prompt_multimodal(query, prompt, support_text):
     # return f"{prompt}\n claim:{query}\n evidence:{text_corpus}"
-    return f"<image>\nUSER:{prompt}\n claim:{query}\n reasoning_support_text:{support_text}\n evidence:{text_corpus}\nASSISTANT:"
+    return f"<image>\nUSER:{prompt}\n claim:{query}\n reasoning_support_text:{support_text}\n ASSISTANT:"
 
 
-def get_prompt_multimodal_multi(query, prompt, reasoning_support_text, text_corpus):
-    all_evidences = "\n".join([f"evidence_{i + 1}: {text}" for i, text in enumerate(text_corpus)])
-    return f"<image>\nUSER:{prompt}\n claim:{query}\n reasoning_support_text:{reasoning_support_text}\n {all_evidences}\nASSISTANT:"
+def get_prompt_multimodal_multi(query, prompt, reasoning_support_text):
+    return f"<image>\nUSER:{prompt}\n claim:{query}\n reasoning_support_text:{reasoning_support_text}\n ASSISTANT:"
 
 
 def get_prompt_img(query, prompt):
